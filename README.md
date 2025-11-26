@@ -4,7 +4,7 @@
 <br>
 
 ## 📅 Project Overview
-**"복잡한 메뉴 찾기는 그만, 이제 AI에게 말로 시키세요."**
+**"복잡한 메뉴 찾기는 그만!!, AI에게 말로 시키세요."**
 
 동국대학교 학사행정시스템(nDRIMS)은 방대한 기능을 담고 있지만, 복잡한 메뉴 구조(Depth)와 직관적이지 않은 UI로 인해 학생들이 원하는 기능을 찾는 데 어려움을 겪어왔습니다.
 본 프로젝트는 기존 LLM의 언어 이해 능력을 넘어, **실질적인 행동(Action)을 수행하는 LAM(Large Action Model) 기술**을 도입하여 이 문제를 해결했습니다.
@@ -14,7 +14,7 @@
 <br>
 
 ## 🧠 Model Architecture & Hugging Face
-이 서비스는 사용자의 의도를 파악하여 행동 계획을 수립하는 **Base Model(Planner)**과, 실제 웹 UI 요소와 상호작용하는 **Adapter Model(Action)**의 2-Stage 구조로 동작합니다.
+이 서비스는 사용자의 의도를 파악하여 행동 계획을 수립하는 Base Model(Plan)과, 실제 웹 UI 요소와 상호작용하는 Adapter Model(Action)의 구조로 동작합니다.
 
 | Role | Model Name | Link | Description |
 | :--- | :--- | :---: | :--- |
@@ -41,8 +41,6 @@
   <br>
   <h3>Automation & Backend</h3>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=Selenium&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=FastAPI&logoColor=white"/>
 </div>
 
 <br>
