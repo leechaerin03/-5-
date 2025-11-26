@@ -19,15 +19,14 @@
 | Role | Model Name | Link | Description |
 | :--- | :--- | :---: | :--- |
 | **Base Model**<br>(Planner) | `PlanModel_v1` | [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-PlanModel-FFD21E)](https://huggingface.co/leeChaerin/PlanModel_v1) | 사용자의 자연어 명령을 분석하여 수행해야 할 작업 순서(Plan)를 생성하는 모델 |
-| **Adapter Model**<br>(Action) | `ActionModel_v5` | [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-ActionModel-FFD21E)](https://huggingface.co/leeChaerin/ActionModel_v5) | DOM Tree 및 UI 요소를 인식하고 클릭, 입력 등의 구체적인 제어 신호를 생성하는 모델 |
+| **Adapter Model**<br>(Action) | `ActionModel_v5` | [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-ActionModel-FFD21E)](https://huggingface.co/leeChaerin/ActionModel_v5) | state 및 UI 요소를 인식하고 클릭, 입력 등의 구체적인 제어 신호를 생성하는 모델 |
 
 <br>
 
 ## 💡 Key Features
 * **Natural Language Command:** "휴학 신청 어디서 해?", "강의 시간표 확인해줘" 등 구어체 명령 완벽 지원
-* **Zero-Click Navigation:** 사용자가 메뉴를 클릭할 필요 없이, AI가 목적지 페이지까지 자동으로 이동
-* **LAM Technology:** 단순 텍스트 생성이 아닌, 웹 브라우저의 DOM을 이해하고 이벤트를 발생시키는 행동형 AI 구현
-* **Robust UI Control:** 동적 렌더링(SPA) 환경에서도 정확한 요소를 찾아내는 고도화된 식별 알고리즘 적용
+* **Click Navigation:** 사용자가 메뉴를 클릭할 필요 없이, AI가 목적지 페이지까지 자동으로 이동
+* **LAM Technology:** 단순 텍스트 생성이 아닌, 웹 브라우저의 state을 이해하고 이벤트를 발생시키는 행동형 AI 구현
 
 <br>
 
@@ -44,11 +43,3 @@
 </div>
 
 <br>
-
-## 🚀 How to Run
-
-### 1. Installation
-```bash
-git clone [https://github.com/YourID/nDRIMS-Agent.git](https://github.com/YourID/nDRIMS-Agent.git)
-cd nDRIMS-Agent
-pip install -r requirements.txt
