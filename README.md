@@ -1,4 +1,4 @@
-# 🦁 nDRIMS AI Agent: LAM-based Automation Service
+# 🐘 nDRIMS AI Agent: LAM-based Automation Service
 > **Large Action Model(LAM)을 활용한 동국대학교 학사행정시스템(nDRIMS) 지능형 자동화 에이전트**
 
 <br>
